@@ -1,0 +1,29 @@
+{
+  "name": "dragons-den",
+  "version": "1.0.0",
+  "description": "A character Toolset to store relevant info for D&D.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimTatarakis/Dragons-Den.git"
+  },
+  "keywords": [
+    "D&D"
+  ],
+  "author": "Jim.Tatarakis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JimTatarakis/Dragons-Den/issues"
+  },
+  "homepage": "https://github.com/JimTatarakis/Dragons-Den#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "sequelize": "^5.9.1",
+    "sequelize-cli": "^5.5.0"
+  }
+}
