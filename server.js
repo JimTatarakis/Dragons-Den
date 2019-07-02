@@ -22,11 +22,11 @@ app.use(express.static('public'));
 
 // Requires the API-Routes
 // =============================================================
-require('./routes/apiRoutes')(app);
+require('./routes/apiRoutes.js')(app);
 
 // Requires the View-Routes
 // =============================================================
-require('./routes/viewRoutes')(app);
+require('./routes/viewRoutes.js')(app);
 
 // Sets up Handlebars
 // =============================================================
